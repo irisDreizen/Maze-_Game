@@ -1,0 +1,6 @@
+2019.06.16 21:45:17.983 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 21:45:17.983 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 21:45:17.991 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 21:45:17.991 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 21:45:17.992 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 21:45:17.992 INFO  Server.Server - Server is waiting for clients...

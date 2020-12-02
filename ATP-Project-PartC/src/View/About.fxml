@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.layout.GridPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="about.css" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+   <GridPane>
+      <children>
+         <Label text="a little about the us:" GridPane.rowIndex="0" />
+      </children>
+      <children>
+         <Label text="2 brilliant girls who only want to earn some money and fly to an isolated island, with a lot of pineapples and bear" GridPane.rowIndex="1" />
+      </children>
+      <children>
+         <Label text="this assignment was given as part of programming course and was the most fun job in our studies!" GridPane.rowIndex="2" />
+      </children>
+      <children>
+         <Label text="our favorite part in this assignment was the expectation that Max, our favorite assignments-checker, will see our maze and will be exited about it" GridPane.rowIndex="3" />
+      </children>
+      <children>
+         <Label text="hope that as Max, you all will enjoy it!" GridPane.rowIndex="4" />
+      </children>
+
+   </GridPane>
+
+
+</AnchorPane>

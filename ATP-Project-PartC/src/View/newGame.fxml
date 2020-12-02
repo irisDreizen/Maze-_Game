@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="about.css" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+<GridPane>
+<children>
+    <Label text="Number of rows:" />
+    <TextField fx:id="txtfld_rowsNum" prefHeight="31.0" prefWidth="58.0" text="50" GridPane.columnIndex="1" />
+    <TextField fx:id="txtfld_columnsNum" text="50" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Label text="Number of columns:" GridPane.rowIndex="1" />
+    <Button fx:id="btn_generateMaze" mnemonicParsing="false" onAction="#generateMaze" prefHeight="31.0" prefWidth="295.0" text="Generate Maze" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+    <Button fx:id="btn_solution" mnemonicParsing="false" onAction="#solveMaze" prefHeight="31.0" prefWidth="324.0" text="Solve Maze" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+</children>
+</GridPane>
+</AnchorPane>
