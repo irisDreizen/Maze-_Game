@@ -4,13 +4,13 @@ It consist of 3 parts (3 steps for the final project):
 
 Part A - Maze Generation + Search Algorithms
 This part contains 3 generation methods:
-empty maze - generates maze without walls
-simple maze - generates maze with random walls walls
+empty maze - generates maze without walls,
+simple maze - generates maze with random walls walls,
 my maze - generates maze with algorithm took from Wikipedia - https://en.wikipedia.org/wiki/Maze_generation_algorithm
 
 The algorithms part contains 3 search algorithms for solving the maze:
-BFS -  algorithm for searching tree using queue
-DFS - algorithm for searching tree using stack
+BFS -  algorithm for searching tree using queue,
+DFS - algorithm for searching tree using stack,
 Best-FS - algorithm for searching tree using priority queue
 *We used here an object adapter named SearchableMaze that adapts our maze for a search problem.
 UML diagram for this part: 
